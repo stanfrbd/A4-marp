@@ -38,7 +38,7 @@ pre {
     border: 1px solid #999;
     line-height: 1.15;
     overflow-x: auto;
-    background-color: #0a0a0a;
+    background-color: #202228;
     padding: 0.6em;
 }
 
@@ -80,7 +80,7 @@ header,
 footer {
     text-align: center;
     font-size: 18px;
-    color: #ffcff1;
+    color: #0a0a0a;
 }
 
 header {
