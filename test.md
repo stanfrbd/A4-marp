@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: a4-light
+theme: a4-dark
 paginate: true
 header: "This is a cool header"
 ---

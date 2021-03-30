@@ -59,13 +59,13 @@ a:hover {
 
 h1,
 h2 {
-    color: lightblue;
+    color: #246;
 }
 
 blockquote {
-    color: #f8b878;
+    color: #ff33ff;
     padding: 0 1em;
-    border-left: 0.25em solid#f8b878;
+    border-left: 0.25em solid#ff33ff;
 }
 
 blockquote>:first-child {
