@@ -45,5 +45,6 @@ paginate: true
 
 at the beginning of the `.md` file.
 
-![image](https://user-images.githubusercontent.com/44167150/112986120-65296900-9161-11eb-94ac-098876508ecc.png)
-![image](https://user-images.githubusercontent.com/44167150/112986598-f8fb3500-9161-11eb-8738-13cfe5584f1f.png)
+![image](https://user-images.githubusercontent.com/44167150/113009397-323e9f80-9178-11eb-93a8-d339845e76f2.png)
+![image](https://user-images.githubusercontent.com/44167150/113009486-46829c80-9178-11eb-9f69-2a5e6bb2b0da.png)
+
