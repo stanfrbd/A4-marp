@@ -10,18 +10,7 @@ Assuming VS Code and [Marp for VS Code](https://github.com/marp-team/marp-vscode
 - Open this entire folder in VS Code
 - Start writing your `.md` file using
 
-If you don't want to clone the repo, just put the CSS files at the root of the VS Code working directory, add a `.vscode` folder with a `settings.json` 
-
-in `settings.json` put
-
-```json
-{
-    "markdown.marp.themes": [
-      "https://raw.githubusercontent.com/stanfrbd/A4-marp/main/a4-light.css",
-      "https://raw.githubusercontent.com/stanfrbd/A4-marp/main/a4-dark.css"
-    ]
-}
- ```
+You need to have the folder `.vscode` + `settings.json`
 
 ## Dark theme
 
