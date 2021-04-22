@@ -30,6 +30,7 @@ section::after {
 
 p code {
     background-color: #0a0e12;
+    border-radius: 5px;
 }
 
 img {
@@ -140,6 +141,7 @@ td {
 
 table code {
     background-color: #0a0e12;
+    border-radius: 5px;
 }
 
 table tr:nth-child(2n) {

@@ -30,6 +30,7 @@ section::after {
 
 p code {
     background-color: #f6f8fa;
+    border-radius: 5px;
 }
 
 img {
@@ -141,4 +142,5 @@ table tr td :last-child {
 
 table code {
     background-color: #f6f8fa;
+    border-radius: 5px;
 }
