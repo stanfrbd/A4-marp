@@ -2,20 +2,21 @@
 
 @import 'base';
 @import 'atom-one-dark.css';
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 /* A4 by stanfrbd */
 
 section {
     width: 21cm;
     height: 29.7cm;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Rubik', sans-serif;
     align-items: stretch;
     background: #202228;
     color: #fff;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    font-size: 20px;
+    font-size: 14px;
     justify-content: left;
     text-align: justify;
     padding: 30px 70px;
