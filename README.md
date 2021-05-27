@@ -26,8 +26,8 @@ paginate: true
 
 at the beginning of the `.md` file.
 
-![image](https://user-images.githubusercontent.com/44167150/115675689-1d0bf980-a34f-11eb-9b5c-62edb86d8e76.png)
-![image](https://user-images.githubusercontent.com/44167150/112986440-c94c2d00-9161-11eb-9e81-2db88df794f2.png)
+![image](https://user-images.githubusercontent.com/44167150/119787021-0ec27780-bed1-11eb-8638-f5b74cfea008.png)
+![image](https://user-images.githubusercontent.com/44167150/119787121-2b5eaf80-bed1-11eb-8fcf-81439d2f1315.png)
 
 
 
@@ -45,6 +45,6 @@ paginate: true
 
 at the beginning of the `.md` file.
 
-![image](https://user-images.githubusercontent.com/44167150/115676092-88ee6200-a34f-11eb-8089-f640560d627d.png)
-![image](https://user-images.githubusercontent.com/44167150/113009486-46829c80-9178-11eb-9f69-2a5e6bb2b0da.png)
+![image](https://user-images.githubusercontent.com/44167150/119787209-45988d80-bed1-11eb-9aff-9c768b91537e.png)
+![image](https://user-images.githubusercontent.com/44167150/119787297-5b0db780-bed1-11eb-9583-99ab09cf58d7.png)
 
