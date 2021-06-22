@@ -31,7 +31,8 @@ section::after {
 
 p code {
     background-color: #0a0e12;
-    border-radius: 5px;
+    border-radius: .4em;
+    padding: 0.2em 0.5em;
 }
 
 img {
@@ -41,7 +42,8 @@ img {
 }
 
 pre {
-    border: 1px solid #999;
+    border-radius: .4em;
+    padding: 0.2em 0.5em;
     line-height: 1.15;
     overflow-x: auto;
     background-color: #0a0a0a;
@@ -149,7 +151,14 @@ table tr:nth-child(2n) {
     background-color: #1b2024;
 }
 
-table pre {
+table code {
+    border-radius: .4em;
+    padding: 0.2em 0.5em;
     background-color: #0a0e12;
-    border-color: #777;
+}
+
+ul li code {
+    border-radius: .4em;
+    padding: 0.2em 0.5em;
+    background-color: #0a0e12;
 }

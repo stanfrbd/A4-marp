@@ -18,13 +18,16 @@ This is a paragraph, this is a command `keyword`.
 
 It's **bold**. 
 
-> This is a citation
+> This is a citation and a `keyword`
+> * list and a `keyword`
+
+* `keyword` in a list
 
 This is a *table*
 
 col1 | col2
 -----|-----
-row1 | row1
+row1 | row1 + `keyword`
 row2 | row2
 row3 | row3
 
@@ -33,7 +36,7 @@ row3 | row3
 #include <stdlib.h>
 
 // a little piece of code  
-// with Atom One Dark syntax higlighting
+// with Atom One Dark syntax highlighting
 int main(void)
 {
     puts("Hello, world!");

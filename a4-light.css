@@ -1,5 +1,8 @@
 /* @theme a4-light */
 
+
+/* @auto-scaling fittingHeader,math */
+
 @import 'base';
 @import 'atom-one-dark.css';
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
@@ -31,7 +34,8 @@ section::after {
 
 p code {
     background-color: #f6f8fa;
-    border-radius: 5px;
+    border-radius: .4em;
+    padding: 0.2em 0.5em;
 }
 
 img {
@@ -41,7 +45,8 @@ img {
 }
 
 pre {
-    border: 1px solid #999;
+    border-radius: .4em;
+    padding: 0.2em 0.5em;
     line-height: 1.15;
     overflow-x: auto;
     background-color: #202228;
@@ -142,6 +147,13 @@ table tr td :last-child {
 }
 
 table code {
+    border-radius: .4em;
+    padding: 0.2em 0.5em;
     background-color: #f6f8fa;
-    border-radius: 5px;
+}
+
+ul li code {
+    border-radius: .4em;
+    padding: 0.2em 0.5em;
+    background-color: #f6f8fa;
 }
