@@ -12,7 +12,7 @@ section {
     font-family: 'Rubik', sans-serif;
     align-items: stretch;
     background: #202228;
-    color: #fff;
+    color: #ABB2BF;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -39,6 +39,8 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 pre {
@@ -55,6 +57,7 @@ pre {
 
 code {
     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    /* font-family: "Cascadia Mono"; */
     color: #abb2bf;
     overflow-x: auto;
 }
