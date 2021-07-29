@@ -15,17 +15,10 @@ You need to have the folder `.vscode` + `settings.json`
 ### My custom script to create a quick note ~ to add in `~/.bashrc` or `~/.zshrc`
 
 ```sh
-# Assuming VS Code && Marp plugin are installed
 function notes() {
-        mkdir "$1"
-        cd "$1"
-        mkdir .vscode
-        echo "{
-    \"markdown.marp.themes\": [
-      \"a4-light.css\",
-      \"a4-dark.css\"
-    ]
-}" >> .vscode/settings.json
+        mkdir "$1" && cd "$1" && mkdir .vscode
+        wget -q "https://raw.githubusercontent.com/stanfrbd/A4-marp/main/.vscode/settings.json"
+        mv settings.json .vscode
         echo "---" >> "$1".md
         echo "marp: true" >> "$1".md
         echo "theme: a4-dark" >> "$1".md
