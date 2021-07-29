@@ -12,6 +12,41 @@ Assuming VS Code and [Marp for VS Code](https://github.com/marp-team/marp-vscode
 
 You need to have the folder `.vscode` + `settings.json`
 
+### My custom script to create a quick note ~ to add in `~/.bashrc` or `~/.zshrc`
+
+```sh
+# Assuming VS Code && Marp plugin are installed
+function notes() {
+        mkdir "$1"
+        cd "$1"
+        mkdir .vscode
+        echo "{
+    \"markdown.marp.themes\": [
+      \"a4-light.css\",
+      \"a4-dark.css\"
+    ]
+}" >> .vscode/settings.json
+        echo "---" >> "$1".md
+        echo "marp: true" >> "$1".md
+        echo "theme: a4-dark" >> "$1".md
+        echo "paginate: true" >> "$1".md
+        echo "---" >> "$1".md
+        echo "" >> "$1".md
+        date=$(date)
+        echo "<!-- $date -->" >> "$1".md
+        echo "" >> "$1".md
+        echo "# $1" >> "$1".md
+        wget -q "https://raw.githubusercontent.com/stanfrbd/A4-marp/main/a4-light.css"
+        wget -q "https://raw.githubusercontent.com/stanfrbd/A4-marp/main/a4-dark.css"
+        wget -q "https://raw.githubusercontent.com/stanfrbd/A4-marp/main/atom-one-dark.css"
+        code .
+}
+```
+> Usage: `notes <project_name>`
+> 
+> This will a create a foler `<project_name>` containing a file `<project_name>.md` with the date inside. \
+> This will also create the folder `<project_name>/.vscode` and the custom A4 themes from this repo.
+
 ## Dark theme
 
 Put
@@ -48,9 +83,9 @@ at the beginning of the `.md` file.
 ![image](https://user-images.githubusercontent.com/44167150/122885276-3a554800-d33f-11eb-8a3c-f89b563f4e60.png)
 ![image](https://user-images.githubusercontent.com/44167150/122885346-4b05be00-d33f-11eb-9e89-619c4dda125e.png)
 
-# Printing - gain of ink
+## Printing - gain of ink
 
-> Use the light theme and change this in your a4-light.css
+> Use the light theme and change this in your `a4-light.css`
 
 ```css
 pre {
