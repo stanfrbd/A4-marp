@@ -105,3 +105,24 @@ code {
 
 ![image](https://user-images.githubusercontent.com/44167150/127450871-21ef653f-e0bc-4554-b8de-8004a11c2b1a.png)
 
+# Newest one
+
+In your `.vscode/settings.json`  
+
+```json
+{
+    "markdown.marp.themes": [
+      "https://raw.githubusercontent.com/stanfrbd/A4-marp/refs/heads/main/a4-clean.css"
+    ]
+}
+```
+
+and then at the top of the MD file:  
+
+```markdown
+---
+marp: true
+theme: a4-clean
+paginate: true
+---
+```
