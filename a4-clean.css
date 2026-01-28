@@ -1,0 +1,160 @@
+/* @theme a4-clean */
+
+@import 'base';
+
+section {
+    width: 21cm;
+    height: 29.7cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: white;
+    color: #1a1a1a;
+    font-size: 12px;
+    line-height: 1.6;
+    padding: 25px 35px;
+}
+
+section::after {
+    content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+    font-size: 12px;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #34495e;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #555;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+strong {
+    color: #2c3e50;
+}
+
+em {
+    color: #555;
+}
+
+ul, ol {
+    margin: 10px 0;
+    padding-left: 30px;
+    font-size: 12px;
+}
+
+li {
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+blockquote {
+    color: #555;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-left: 4px solid #3498db;
+    background-color: #f8f9fa;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 12px;
+    table-layout: auto;
+    word-wrap: break-word;
+}
+
+table th {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    padding: 6px 8px;
+    border: 1px solid #2980b9;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+table td {
+    padding: 5px 8px;
+    border: 1px solid #ddd;
+    word-wrap: break-word;
+    max-width: 300px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+header, footer {
+    text-align: center;
+    font-size: 12px;
+    color: #555;
+}
+
+header {
+    top: 20px;
+}
+
+footer {
+    bottom: 20px;
+}
+
+code, pre {
+    font-family: Consolas, 'Courier New', monospace;
+}
+
+code {
+    background-color: #f6f8fa;
+    padding: 2px 6px;
+    border-radius: 3px;
+    color: #2c3e50;
+}
+
+pre {
+    background-color: #f6f8fa;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    line-height: 1.4;
+    border-left: 3px solid #3498db;
+}
+
+pre code {
+    background-color: transparent;
+    padding: 0;
+}
